@@ -73,7 +73,7 @@ class: middle
 
 ---
 
-<img src="https://i.giphy.com/media/l3q2K5jinAlChoCLS/giphy.gif" width='300px' />
+<img src="https://i.giphy.com/media/91fEJqgdsnu4E/giphy.gif" width='400px' />
 
 ---
 
@@ -89,25 +89,32 @@ In the end, only what a developer can reproduce in code **(in combination with a
 
 ---
 
-## Prioritize
+## Prioritize reducing time between ideation and coding **over** perfect layouts and prototypes
 
-Reducing time between ideation and programming **over** perfect layout in Sketch or Photoshop
+> In most cases 😎
 
 ---
 
 layout: true
+class: center
 
 # The Goal
 
 ---
 
-Every UI element you create should be aligned to the pixel grid.
+### Every UI element you create should be aligned to the pixel grid.
 
 --
 
 This is a concept known as pixel-fitting and it ensures that all of your elements appear crisp on a user’s device.
 
 <img src='/public/fitting.png' width='400px'>
+
+---
+
+## anti-aliasing??
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hqi0114mwtY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
@@ -121,58 +128,49 @@ The elements the text are in are the importaint part
 
 ---
 
-## anti-aliasing??
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hqi0114mwtY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
----
-
 layout:false
+class: center, middle
 
-# But Why?
+# Nice! Go on!!
 
---
-
-## Consistent UI
-
-When all of your measurements follow the same rules
-
-You automatically get a more consistent UI.
-
---
-
-## Fewer decisions = less time
-
-<!-- By removing 7 of every 8 spacing options, you reduce the amount of fiddling available to you and subsequently reduce speed to code. -->
+<img src="https://i.giphy.com/media/l4JyX3V0yydvPHNBe/giphy.gif" width='100%' />
 
 ---
 
 layout: true
 
-# But Why?
-
-## Multi-platform design
+# Dev Benifits
 
 ---
 
-Most popular screen sizes are divisible by 8 on at least one axis
+class: center, middle
+
+---
+
+## Consistent UI
+
+### When all of your measurements follow the same rules...
+
+--
+
+### ...you automatically get a more consistent UI.
+
+--
+
+### Fewer decisions = more time creating value (**_coding_**)
+
+<!-- By removing 7 of every 8 spacing options, you reduce the amount of fiddling available to you and subsequently reduce speed to code. -->
+
+---
+
+## Multi-platform design
+
+--
+
+### Most popular screen sizes are divisible by 8 on at least one axis
 
 <img src='/public/sizes.png' width='400px'>
 
 ---
 
-<img src='/public/1.png' width='400px'>
-
----
-
-layout: false
-
-# Icons
-
-Icons often need to be different sizes to maintain the same visual weight.
-
-Putting a frame around them, similar to how Hard Grid defines element sizes is a way to keep your measurements consistent, while allowing variation within defined parameters.
-
-```
-
-```
+<img src='/public/1.png' width='70%'>
