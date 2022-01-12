@@ -6,21 +6,59 @@ class: center, middle
 
 class: center
 
-# The 8-Point Grid
+# Pixel Fitting
 
-Using multiples of 8 to define all areas of the box-model
-
-## Box-model ??
+## Using multiples of 8 and/or 4 to define all areas of the **box-model** 🤔
 
 <img src="https://i.giphy.com/media/cmNyvXwDSo2IhwYj0W/giphy.gif" width='400px' />
 
 ---
 
-class: center
+layout: true
 
 # Box-model
 
+---
+
 <img src='/public/boxmodel.png' width='600px'>
+
+---
+
+<img src='/public/box-sizing.png' width='100%'>
+
+```css
+div {
+  /* default */
+  box-sizing: 'content-box';
+}
+```
+
+---
+
+```css
+div {
+  box-sizing: border-box;
+}
+```
+
+The width and height properties include the content, padding, and border, but do not include the margin.
+
+`total element size = (w + h) + (p + b)`
+
+---
+
+## box-sizing
+
+<img src='/public/box-sizing.png' width='100%'>
+
+---
+
+layout: false
+class: center, middle
+
+# So why?
+
+<img src="https://i.giphy.com/media/9MITppNYL8aYtqYZ27/giphy.gif" width='100%' />
 
 ---
 
@@ -73,7 +111,7 @@ This is a concept known as pixel-fitting and it ensures that all of your element
 
 ---
 
-### A note about text
+## A note about text
 
 Text is somewhat of an outlier here as the unique metrics that allow your eyes to read letters require a little bit of the **anti-aliasing** that makes other shapes blurry.
 
@@ -83,7 +121,7 @@ The elements the text are in are the importaint part
 
 ---
 
-### anti-aliasing??
+## anti-aliasing??
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hqi0114mwtY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -95,7 +133,7 @@ layout:false
 
 --
 
-### Consistent UI
+## Consistent UI
 
 When all of your measurements follow the same rules
 
@@ -103,7 +141,7 @@ You automatically get a more consistent UI.
 
 --
 
-### Fewer decisions = less time
+## Fewer decisions = less time
 
 <!-- By removing 7 of every 8 spacing options, you reduce the amount of fiddling available to you and subsequently reduce speed to code. -->
 
@@ -134,3 +172,7 @@ layout: false
 Icons often need to be different sizes to maintain the same visual weight.
 
 Putting a frame around them, similar to how Hard Grid defines element sizes is a way to keep your measurements consistent, while allowing variation within defined parameters.
+
+```
+
+```
