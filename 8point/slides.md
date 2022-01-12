@@ -8,17 +8,25 @@ class: center
 
 # Pixel Fitting
 
-## Using multiples of 8 and/or 4 to define all areas of the **box-model** 🤔
+## Using multiples of 8 and/or 4 to define all areas of the box-model.
 
-<img src="https://i.giphy.com/media/cmNyvXwDSo2IhwYj0W/giphy.gif" width='400px' />
+---
+
+class: center
+
+# box-model 🤔
+
+<img src="https://i.giphy.com/media/cmNyvXwDSo2IhwYj0W/giphy.gif" width='500px' />
 
 ---
 
 layout: true
 
-# Box-model
+# box-model
 
 ---
+
+class: center
 
 <img src='/public/boxmodel.png' width='600px'>
 
@@ -95,18 +103,30 @@ In the end, only what a developer can reproduce in code **(in combination with a
 
 ---
 
-layout: true
-class: center
-
-# The Goal
+<img src="https://i.giphy.com/media/R459x856IfF6w/giphy.gif" width='400px' />
 
 ---
 
-### Every UI element you create should be aligned to the pixel grid.
+layout: false
+class: center, middle
 
---
+## So how does this work?
 
-This is a concept known as pixel-fitting and it ensures that all of your elements appear crisp on a user’s device.
+<img src="https://i.giphy.com/media/AFn9fX3nanO3gu5Sgk/giphy.gif" width='400px' />
+
+---
+
+layout: true
+
+# Pixel Fitting
+
+---
+
+class: center, middle
+
+---
+
+## Ensures that all of your elements appear crisp on a user’s device.
 
 <img src='/public/fitting.png' width='400px'>
 
@@ -115,6 +135,20 @@ This is a concept known as pixel-fitting and it ensures that all of your element
 ## anti-aliasing??
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hqi0114mwtY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+<img src='/public/1.png' width='70%'>
+
+---
+
+### Most popular screen sizes are divisible by 8 on at least one axis
+
+<img src='/public/sizes.png' width='400px'>
+
+---
+
+## @1x
 
 ---
 
@@ -144,33 +178,45 @@ layout: true
 ---
 
 class: center, middle
+<img src="https://i.giphy.com/media/ibXaC5vnxZlNNXVFy4/giphy.gif" width='60%' />
 
 ---
 
 ## Consistent UI
 
-### When all of your measurements follow the same rules...
+### When all of our measurements follow the same rules...
 
 --
 
-### ...you automatically get a more consistent UI.
-
---
-
-### Fewer decisions = more time creating value (**_coding_**)
-
-<!-- By removing 7 of every 8 spacing options, you reduce the amount of fiddling available to you and subsequently reduce speed to code. -->
+### ...we automatically get a more consistent UI.
 
 ---
 
-## Multi-platform design
+## More time coding
 
---
-
-### Most popular screen sizes are divisible by 8 on at least one axis
-
-<img src='/public/sizes.png' width='400px'>
+### Fewer decisions = more time creating value (**coding**)
 
 ---
 
-<img src='/public/1.png' width='70%'>
+## Less cross talk
+
+### Multi-platform design
+
+---
+
+layout: false
+
+# FIN
+
+---
+
+layout: true
+class: center
+
+# The Goal
+
+---
+
+### Every UI element you create should be aligned to the pixel grid.
+
+--

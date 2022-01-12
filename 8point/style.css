@@ -12,6 +12,12 @@
   --step-4: clamp(2.07rem, 1.93rem + 0.72vw, 2.44rem);
   --step-5: clamp(2.49rem, 2.27rem + 1.1vw, 3.05rem);
   --step-6: clamp(2.99rem, 2.66rem + 1.62vw, 3.82rem);
+  /* Colors */
+  --blue: #4fb3db;
+  --green: #7dba5d;
+  --yellow: #e7cd3b;
+  --orange: #ee8001;
+  --red: #df464e;
 }
 body {
   font-family: 'Source Sans Pro', sans-serif;
@@ -26,10 +32,12 @@ h4 {
 }
 
 .remark-slide-content h1 {
+  color: var(--blue);
   font-size: var(--step-6);
   font-family: 'Abril Fatface', cursive;
 }
 .remark-slide-content h2 {
+  color: var(--yellow);
   font-family: 'Abril Fatface', cursive;
   font-size: var(--step-4);
 }
