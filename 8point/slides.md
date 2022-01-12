@@ -66,7 +66,7 @@ class: center, middle
 
 # So why?
 
-<img src="https://i.giphy.com/media/9MITppNYL8aYtqYZ27/giphy.gif" width='100%' />
+<img src="https://i.giphy.com/media/KFiQXtO3rWxlzpjnrV/giphy.gif" width='50%' />
 
 ---
 
@@ -81,7 +81,7 @@ class: middle
 
 ---
 
-<img src="https://i.giphy.com/media/91fEJqgdsnu4E/giphy.gif" width='400px' />
+<img src="https://i.giphy.com/media/xT0GqJyFsq8ByBfEmQ/giphy.gif" width='600px' />
 
 ---
 
