@@ -19,8 +19,16 @@
   --orange: #ee8001;
   --red: #df464e;
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Source Sans Pro', sans-serif;
+  background-color: #1c1d21;
   color: #eef;
   font-size: var(--step-0);
 }
@@ -31,43 +39,25 @@ h4 {
   font-weight: normal;
 }
 
-.remark-slide-content h1 {
+h1 {
   color: var(--blue);
   font-size: var(--step-6);
   font-family: 'Abril Fatface', cursive;
 }
-.remark-slide-content h2 {
+h2 {
   color: var(--yellow);
   font-family: 'Abril Fatface', cursive;
   font-size: var(--step-4);
 }
-.remark-slide-content h3 {
+h3 {
   font-size: var(--step-2);
 }
 
-.remark-slide-content h4 {
+h4 {
   font-size: var(--step-1);
 }
 
-.remark-container {
-  background-color: #222;
-}
-
-.remark-slide-scaler {
-  box-shadow: none;
-}
-
-.remark-slide-content {
-  background-color: #222;
-}
-
-.remark-code,
-.remark-inline-code {
+code {
   font-family: 'Source Code Pro', monospace;
+  font-size: var(--step-0);
 }
-
-/* 
-font-family: 'Source Code Pro', monospace;
-font-family: 'Source Sans Pro', sans-serif; 
-
-*/

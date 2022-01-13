@@ -7,5 +7,3 @@ const slideshow = remark.create({
     scroll: false,
   },
 })
-
-console.log(slideshow)

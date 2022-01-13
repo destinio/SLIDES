@@ -1,0 +1,26 @@
+:root {
+  --box-hw: 400px;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  height: 80vh;
+  /* background-color: rgb(207, 214, 255); */
+}
+
+main {
+  width: var(--box-hw);
+  height: var(--box-hw);
+  background-color: #555;
+  background-image: url('/static/images/wood.jpeg');
+  border: 32px dashed var(--blue);
+  margin: 32px;
+  padding: 32px;
+  box-sizing: content-box;
+  font-size: 32px;
+}
+
+.border-box {
+  box-sizing: border-box;
+}
