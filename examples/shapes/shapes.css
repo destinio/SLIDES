@@ -1,0 +1,37 @@
+body {
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.triangle {
+  margin: 0 0 4rem;
+  display: inline-block;
+}
+
+.triangle-1 {
+  border: 5rem solid var(--blue);
+  border-right-color: var(--yellow);
+  border-left-color: var(--green);
+  border-bottom-color: var(--red);
+}
+
+.triangle-2 {
+  border-style: solid;
+  border-color: transparent;
+
+  border-bottom-color: var(--yellow);
+  border-width: 0 6rem 9rem 6rem;
+}
+
+.triangle-3 {
+  width: 8em;
+  height: 10em;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(45deg, blue 50%, rgba(255, 255, 255, 0) 50%);
+
+  /* Optional - helping us see the bounding box */
+  outline: 4px solid red;
+}

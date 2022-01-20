@@ -1,6 +1,16 @@
-class: center, middle
-
+<div style="z-index: 1; position: relative; height: 100%;">
+<div style="z-index: 1; position: relative; text-align: center; padding: 3rem;">
+<h1>
 # 8 Point Grid
+</h1>
+<quote>
+The grid. A digital frontier. I tried to picture clusters of information as they moved through the computer. What did they look like? Ships, motorcycles. With the circuits like freeways. I kept dreaming of a world I thought I'd never see. And then one day, I got in. - Kevin Flynn
+</quote>
+</div>
+
+  <img style="position: absolute; top: 0; left: 50%; transform: translateX(-50%); height: 100%; width: 100%; z-index: 0" src="https://i.giphy.com/media/Uqw7f8I9UDiuE2tu1H/giphy.gif" width='500px' />
+
+</div>
 
 ---
 
