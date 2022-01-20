@@ -10,6 +10,9 @@
   background-color: #222;
 }
 
+.remark-slide-number {
+  display: none;
+}
 /* 
 font-family: 'Source Code Pro', monospace;
 font-family: 'Source Sans Pro', sans-serif; 
