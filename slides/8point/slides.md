@@ -38,13 +38,53 @@ The grid. A digital frontier. I tried to picture clusters of information as they
 
 # 8 Point Grid
 
+### A little history...
+
+- Almost always present to Developers by Design Team
+
+--
+
+- Left with more questions...
+
+---
+
+# 8 Point Grid
+
+## Quick Goals
+
+- Help establish a more consistent UI and Brand image
+
+--
+
+- less ideation
+
+--
+
+- less guessing
+
+--
+
+- more time coding (creating production value)
+
+--
+
+- and more...
+
+---
+
+# 8 Point Grid
+
+## Keep in mind
+
+--
+
 This is the first step of many.
 
 --
 
 Nothing has been decided!
 
-  <img src="https://i.giphy.com/media/smW5FBep69d3q/giphy.gif" width='500px' />
+  <img src="https://i.giphy.com/media/smW5FBep69d3q/giphy.gif" width='400px' />
 
 ---
 
@@ -206,13 +246,11 @@ layout: true
 layout: false
 class: center
 
-## How we do this?
+# How we do this?
 
 <img src="https://i.giphy.com/media/VJZjwxYnqce6CbXufG/giphy.gif" width='400px' />
 
 ---
-
-class: center
 
 # Benefits
 

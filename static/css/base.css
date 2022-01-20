@@ -13,9 +13,9 @@
   --step-5: clamp(2.49rem, 2.27rem + 1.1vw, 3.05rem);
   --step-6: clamp(2.99rem, 2.66rem + 1.62vw, 3.82rem);
   /* Colors */
-  --blue: #4fb3db;
+  --blue: #4fafdb;
   --green: #7dba5d;
-  --yellow: #e7cd3b;
+  --yellow: #ff6fff;
   --orange: #ee8001;
   --red: #df464e;
 }

@@ -8,6 +8,11 @@
 
 .remark-slide-content {
   background-color: #222;
+  /* background-size: 2rem;
+  background-repeat: repeat;
+  background-position: 0 0;
+  background-image: linear-gradient(to right, rgba(255, 0, 255, 0.1) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 0, 255, 0.1) 1px, transparent 1px); */
 }
 
 .remark-slide-number {
