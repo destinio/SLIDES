@@ -82,17 +82,19 @@ layout: true
 
 ### Use multiples of 8px to define dimensions, padding, borders, and margin of both block and inline elements.
 
+Simple right?
+
 ---
 
 ## What IT is...
 
 Using multiples of 8px to define all areas of the...
 
----
+--
 
-## ...box-model.
+### ...box-model.
 
-<img src="https://i.giphy.com/media/cmNyvXwDSo2IhwYj0W/giphy.gif" width='500px' />
+<img src="https://i.giphy.com/media/cmNyvXwDSo2IhwYj0W/giphy.gif" width='400px' />
 
 ---
 
@@ -126,12 +128,6 @@ div {
 The width and height properties include the content, padding, and border, but do not include the margin.
 
 `total element size = (w + h) + (p + b)`
-
----
-
-<a href='/examples/box-model/' target="_blank">Example</a>
-
-<img src="https://i.giphy.com/media/RCBQSWiMPTQly/giphy.gif" width='60%' />
 
 ---
 
@@ -244,25 +240,9 @@ layout: true
 
 ## Consistent UI
 
-- ### no designs
+### no designs
 
 --
-
-- ### no installs
-
---
-
-- ### It's a mind-set
-
----
-
-## Multi-platform design
-
-<img src='/static/images/sizes.png' width='75%'>
-
----
-
-## Consistent UI
 
 ### no installs
 
@@ -292,9 +272,9 @@ layout: true
 
 ---
 
-### There's more...
+### Ok, go on...
 
-<img src="https://i.giphy.com/media/0NAxDmdrb9t8aA2yh2/giphy.gif" width='40%' />
+<img src="https://i.giphy.com/media/l4JyX3V0yydvPHNBe/giphy.gif" width='70%' />
 
 ---
 
@@ -306,9 +286,9 @@ layout: true
 
 ---
 
-## More time coding
+## More time
 
-### learning code
+### learning
 
 --
 
@@ -328,28 +308,27 @@ layout: true
 
 ## Less cross talk
 
+--
+
 Less communication between designers and developers (no fussing over pixels).
 
-A developer can effortlessly eyeball an 8pt increment instead of having to measure each time.
+--
+
+A developer can effortlessly eyeball an 8px increment instead of having to measure each time.
 
 ---
 
 ## Strength in brand
 
-### clients
+--
+
+### For clients
+
+--
 
 Consistent aesthetic to the brand they trust.
 
 No blurry half-pixel offsets on their preferred device.
-
----
-
-layout:false
-class: center, middle
-
-# Nice! Go on!!
-
-<img src="https://i.giphy.com/media/l4JyX3V0yydvPHNBe/giphy.gif" width='100%' />
 
 ---
 
