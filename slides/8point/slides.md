@@ -38,6 +38,18 @@ The grid. A digital frontier. I tried to picture clusters of information as they
 
 # 8 Point Grid
 
+This is the first step of many.
+
+--
+
+Nothing has been decided!
+
+  <img src="https://i.giphy.com/media/smW5FBep69d3q/giphy.gif" width='500px' />
+
+---
+
+# 8 Point Grid
+
 ## What it's not...
 
 --
@@ -444,6 +456,8 @@ class: center, middle
 <h1>
 FIN
 </h1>
+<a href="https://github.com/destinio/SLIDES/blob/main/slides/8point/slides.md" style="color: #fff; display: block; margin: 0 0 2rem;">SLIDES</a>
+
 <img src="https://i.giphy.com/media/Xj1GHC7mXPquY/giphy.gif" width='60%' />
 </div>
 
